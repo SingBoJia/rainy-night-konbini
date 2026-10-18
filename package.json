@@ -1,0 +1,18 @@
+{
+  "name": "rainy-night-konbini",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5178 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 5179 --strictPort"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.14.0",
+    "vite": "^8.3.4"
+  }
+}
